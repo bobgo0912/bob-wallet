@@ -1,0 +1,37 @@
+{
+  "nodeId": "123",
+  "serviceName": "wallet",
+  "host": "0.0.0.0",
+  "hostName": "wallet",
+  "port": 9999,
+  "rpcPort": 9991,
+  "mysql": {
+    "order": {
+      "userName": "root",
+      "password": "123456",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "database": "wallet"
+    }
+  },
+  "redis": {
+    "hosts": [
+      "127.0.01"
+    ],
+    "password": "",
+    "port": 6379
+  },
+  "nats": {
+    "host": "127.0.01",
+    "userName": "admin",
+    "password": "T0pS3cr3t",
+    "port": 4222
+  },
+  "etcd": {
+    "hosts": [
+      "127.0.0.1:2379"
+    ],
+    "userName": "",
+    "password": ""
+  }
+}
